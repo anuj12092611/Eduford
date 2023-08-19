@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Merriweather:ital,wght@0,300;1,300&family=Poppins:wght@100;600;800&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <title>Eduford</title>
+    <link rel="icon" href="eduford_img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>OUR COURSES</h1>
+    </section>
+    <!--COurse-->
+    <section class="course">
+      <h1>Courses we offer</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+        explicabo error nam quos recusandae obcaecati, voluptatibus iste minima
+        excepturi necessitatibus aspernatur facilis magnam tempora libero.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+            doloribus necessitatibus molestias et odit maiores blanditiis?
+            Asperiores, esse exercitationem, iure maiores, accusantium quia
+            similique soluta aut magnam dicta quas vel.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+            doloribus necessitatibus molestias et odit maiores blanditiis?
+            Asperiores, esse exercitationem, iure maiores, accusantium quia
+            similique soluta aut magnam dicta quas vel.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+            doloribus necessitatibus molestias et odit maiores blanditiis?
+            Asperiores, esse exercitationem, iure maiores, accusantium quia
+            similique soluta aut magnam dicta quas vel.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--facilities-->
+
+    <section class="facilities">
+      <h1>OUR FACILITIES</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus
+        repellendus minima, laborum facilis mollitia nihil veniam. Nam, ex
+        possimus.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="eduford_img/library.png" alt="" />
+          <h3>World class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo,
+            quod. Iure, dolore atque? Illum, impedit.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="eduford_img/basketball.png" alt="" />
+          <h3>World class playground</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo,
+            quod. Iure, dolore atque? Illum, impedit.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="eduford_img/cafeteria.png" alt="" />
+          <h3>Tasty and healthy food</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo,
+            quod. Iure, dolore atque? Illum, impedit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolores
+        amet sit vitae veniam, accusantium<br />
+        animi quod inventore incidunt beatae cupiditate. Sed sint distinctio rem
+        explicabo atque laborum? Adipisci, enim.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> Easy Tutorials</p>
+    </section>
+  </body>
+  <script>
+    var navLinks = document.getElementById('navLinks');
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+    function showMenu() {
+      navLinks.style.right = '0px';
+    }
+  </script>
+</html>
